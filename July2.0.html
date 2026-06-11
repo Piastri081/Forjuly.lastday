@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for july!!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            color: #262626;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #dbdbdb;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 12px;
+        }
+
+        .main-caption {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .music-container {
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        /* Two-Column Side-by-Side Layout */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        @media (max-width: 768px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+            }
+            .photo-column {
+                position: relative !important;
+                top: 0 !important;
+                max-height: none !important;
+                overflow-y: visible !important;
+            }
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #111;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .letters-column, .photo-column {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* Sticky/Floating Behavior for Photo Column */
+        .photo-column {
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        /* Custom scrollbar styling for floating photo column */
+        .photo-column::-webkit-scrollbar {
+            width: 4px;
+        }
+        .photo-column::-webkit-scrollbar-thumb {
+            background-color: #dbdbdb;
+            border-radius: 4px;
+        }
+
+        .note-card {
+            background: #ffffff;
+            padding: 24px;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+            text-align: left;
+        }
+
+        .note-text {
+            font-size: 1rem;
+            color: #262626;
+            margin-bottom: 16px;
+            white-space: pre-line;
+        }
+
+        .note-author {
+            font-weight: 600;
+            color: #000000;
+            text-align: right;
+            font-size: 0.95rem;
+        }
+
+        /* Clean Photo Grid Layout */
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        @media (max-width: 480px) {
+            .photo-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .photo-card {
+            background: #ffffff;
+            border: 1px solid #dbdbdb;
+            padding: 6px;
+            border-radius: 4px;
+        }
+
+        .pinned-photo {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+
+        /* Bottom Gallery Box */
+        .gallery-box {
+            background: #ffffff;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 40px;
+            clear: both;
+        }
+
+        .mailbox-link {
+            text-decoration: none;
+            color: #0095f6;
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: inline-block;
+            margin-top: 12px;
+        }
+
+        .mailbox-link:hover {
+            color: #00376b;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>for july!!</h1>
+            <p class="main-caption">we love you and we will miss you here a little something from us to keep!! 💕💕</p>
+            <div class="music-container">
+                <iframe data-testid="embed-iframe" style="border-radius:4px" src="https://open.spotify.com/embed/track/1HNkqx9Ahdgi1Ixy2xkKkL?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            
+            <div class="letters-column">
+                <div>
+                    <h2 class="section-title">Letters</h2>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">we don’t meet often as before but i hope you know that u are loved by everyone and even me, i really missed our time together back in 8 grade even though we have our ups and down AND wish you goodluck for bacll and the rest of your journey ahead💗 I hope you get what you wish for and hope លទ្ធិផលមិនក្បត់ការខំប្រឹង! Goodluck on your big day girl, we all be waiting for your great results😚</p>
+                    <p class="note-author">— Davy</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">thankyou lymean for such a great time we've spent tgt. we had our ups n downs but i'll always be here for u whenever u need me to be. ur the person who i love talking to cuz we mostly have the same thoughts. its crazy that we're still friends now n i hope to keep this friendship 4ever. even if ur gone n im not w u anymore rmbr that i'll always be by ur side if u ever needed. i may not say this alot but i love u n i hope we r still good friends even if ur not here anymore</p>
+                    <p class="note-author">— Mony</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">Dear Julymean, 
+
+                    Even though we didn't spend nearly enough time hanging out with each other, I appreciate every opportunity that we did! I think you're the coolest and chillest person ever, who really cares about her friends a lot. You always ensure that no one is excluded, and treat everyone equally, regardless of who they are. You're always so nice and never dared to be mean to anyone for no reason. You are what I imagine a genuine person would be like, you are like a star that shines without even trying/ Thank you for being a part of my school journey, you have been a friend i look up to and admired. Good luck in your life and i'll see you whenever I can.</p>
+                    <p class="note-author">— Munyta</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">Hi Lymean, I honestly don't even know where to start because it's hard to put into words how much you mean to me(I know it’s kinda cringy to say this 😭)but even though we only started studying together this year, somehow it feels like I've known you for much longer. We didn't get years and years to spend together, but in such a short amount of time, you became a really important part of my life. You're not just a friend to me but you've been like an older sister and someone I could always look up to as-well. One of the things I'll always admire about you is how kind and outgoing you are and of course how sassy and straightforward u can be(love u🫰).You have a way of making people feel comfortable around you, and I'm really grateful that I got the chance to know you and there’s some people who stay in your life for a long time, and some who stay for only a short while but leave a huge impact and ur definitely one of those people for me.
+
+                    Knowing that you're graduating Khmer school this year and won't be continuing English with us next year makes me really sad🥹. It won't be the same without you around I’ll really miss seeing you in class, talking with you, and all the little moments that made this year special.
+
+                    Even though we won't be studying together anymore, I hope you know that the friendship we built means a lot to me😭. Thank you for being such a wonderful friend, always being nice, and making this year a memorable one for me. I'm really lucky that I got the chance to meet you. I hope that the next chapter of your life brings you happiness, success, and lots of amazing memories. No matter where life takes you, I hope you never forget how much you are loved and appreciated by the people around you. Thank you for everything, Lymean. I'll miss you so much, and I'll always be cheering for you.(and ofc don’t forget to visit us 🥹🫶)</p>
+                    <p class="note-author">— Srey Nich</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">ermmmm im gonna make this short cuz ur lazy ass probably dont wanna read 100 paragraphs
+
+                    all i have to say is thank you for showing me what true friendship truly means. i know we had our ups and downs, but i'll never regret or forget the moments we shared. although we've only known each other for 6-7 months im positive that i will never find a friend like u again. it wont be the same without you here next year but all great things must come to an end. thank you for all the memories we've made. if there are times when you need someone to talk to just know that i will always be here and willing to lend you an ear, goodluck on ur next chapter july. 
+
+                    TLDR: farewell friend</p>
+                    <p class="note-author">— Nut</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">Heyy queen!! 💕, it been 10 ish year since we met — abit Rocky but we been Closer then ever, thank you for having my back and listen to all my lore drop every single day. ( Love you for that 😝💅 ) Through out this friendship we went through up and down, learnt more about each other and discovered new stuff together — I wished that we could continue our normal Day per usual but coming into realisation where there no more tomorrow or next week 🥹 no more skipping class together or just getting in trouble together.  This time we all starting to parts ways from each other into our different path and futures, and you are the first to take in this path into a new chapter of your life — for your upcoming exams I wish you all the best and best of luck in university. Hopefully you finds some new friends there that will treats you the same as us if not just give us a message or a call and we be right on the other side ready to pick up and replies. One last thing from me is that you need to trust yourself more and don't ever doubt yourself. Love you queen 🥹 and hopefully we will get to catch up next time...🥹🥲. 
+
+                    ( You only get one life. It's actually your duty to live it as fully as possible. — Will Traynor )</p>
+                    <p class="note-author">— Panha</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">HEYYYYY LYMEANNNNN😝
+
+                    Honestly, I still can’t believe that you are not staying with us for another year. It feels so surreal how time flies by that quickly. One minute we were in seventh grade playing around, but now, we’re on the day where it's your last year with us and the year that you also have your national exam. We were once our younger self experiencing every possible fun there is without having to stress about anything, not taking class seriously, not going downstairs for lunch, the yoga ball incident…every little entertainment we did together (including other friends) counts and will be forever cherished. 
+
+                    Back in 7th grade, I didn’t know that meeting you would give me a friend I’d treasure for so long. It’s crazy to think how much has changed since we first met. We basically watched us grow up into every possible phase and finally into the character as we are now.Thank you for every laugh, every conversation, every inside joke and every memory.😌
+
+                    One of my favourite things about our friendship is the memories we’ve created together. Some of them are big moments that I’ll always remember: like how we celebrate our birthdays each year with our friends or going up on the stage for a christmas event just for you to not sing. And some of them are small, random moments that probably seemed insignificant at the time but now, looking back, it means so much to me. Point is, I don’t think there is a moment where I ever regretted our friendship to work out like this. Those big and small moments are the things I’m going to miss the most with you gone.🥹
+
+                    I just wanna say thanks to all the moments where you’ve been there for me on my lowest and highest. I don’t always say this often, but I actually love and appreciate you as my bestest friend anyone can ever ask for. You got the humor. You got the brains (if you weren’t so lazy). You also got the looks too queen😝. You also help me get through school easier by just being there because every time I’m hanging with you, time just seems to fly by very quickly. Sometimes we don’t realise the effects we have on each other, but I hope you know that you’ve DEFINITELY made a difference in my life. 
+
+                    What makes this goodbye so hard for me isn’t just you leaving this school. It’s knowing that things won’t be the same as before anymore. I won’t be able to do random kpop dances with you again, sit with you during unexpected school events or have those random conversations that somehow makes the day even better. School will definitely feel a lot different without you. 
+
+                    At the same time, I know this isn’t the last time we will be talking to each other. It’s simply just the start of a new chapter in your life. Hopefully, we will still make time to go out and hang out with the others just like the old days and reconnect. As far as i know, you have this charisma in you that will meet new people, have new experiences and achieve many things you’ve always wanted. You deserve every opportunity that comes your way, and I genuinely can’t wait to see where life takes you. 
+
+                    Thats all from me, I teared up while typing this.🥲 Thank you for being my friend and i wish you nothing but happiness and lots and lots of great fortune coming your way (even your love path). I’ll miss you more than words can ever explain girlyyy🥹💔.  
+
+                    "How lucky I am to have something that makes saying goodbye so hard." — A.A. Milne (Winnie the Pooh)</p>
+                    <p class="note-author">— Roth</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">July,
+                       It’s pretty sad to hear that you are leaving this year, as we made memories throughout the entire school years since grade 2, especially this year where I am very close to the group. You are a great friend, resolving conflicts amongst others, being there for people, being honest with others and more. Over this past year, I have noticed that you overspent money just for some fun time with friends, but moving on with life, please do not spend over your limits, trust this advice. In the end, people must split parts, like going to Universities or switching schools, but from my experience of Senhan, Jayden, ChenFong, Hong, I have lost their contacts, since they and I rarely chat to each other, or going to hangout or something’s like that involving communication. So I don’t want to lose another, we can prevent this by hangouts, communicating with each other often, not rarely. I would like to thank you for being a good friend, being classmates since grade 2, making memories. I wish you good luck for the oncoming future days the world is giving. Thank You
+
+                    All the best</p>
+                    <p class="note-author">— Chea Vatana</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">Study hard to pass bacii and achieve your goal</p>
+                    <p class="note-author">— Vengchea</p>
+                </div>
+
+                <div class="note-card">
+                    <p class="note-text">Good luck on your new journey and wish you the best</p>
+                    <p class="note-author">— Jolie</p>
+                </div>
+            </div>
+
+            <div class="photo-column">
+                <div>
+                    <h2 class="section-title">Photos</h2>
+                </div>
+                
+                <div class="photo-grid">
+                    <div class="photo-card"><img src="https://i.postimg.cc/9ry0137p/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/HjqjQWVZ/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/s1QvQGfL/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/0rMbMK53/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/Sj2J2YQ3/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/c6grgt1P/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/K4kRk3vZ/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/ThLpL5YY/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/4n7m7HNg/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/yWgkg3YD/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/n9Dz6gwB/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/BtrtxZXv/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/grCrvcnw/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/nMyMvVC7/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/9z6zGXry/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/QV2VpNHp/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/NL3L1G54/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/MXCXyZv5/image.jpg" class="pinned-photo" alt="Memory"></div>
+                    <div class="photo-card"><img src="https://i.postimg.cc/5jhjw96n/image.jpg" class="pinned-photo" alt="Memory"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <section style="margin-top: 40px;">
+            <div class="gallery-box">
+                <p style="color: #666; font-size: 0.95rem;">View the complete online gallery collection</p>
+                <a href="https://postimg.cc/gallery/0qDSGZd" target="_blank" class="mailbox-link">Open Full Album →</a>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
